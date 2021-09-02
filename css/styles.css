@@ -1,4 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+body {
+    height: auto;
+    background-color: #fff;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #cfcfcf;
+    border-radius: 1px;
+}
+
+header nav {
+    min-height: 80px;
+    height: auto;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    padding-left: 40px;
+    bottom: 0;
+    color: #0F141E;
+}
 
 .banner_headline {
     height: 600px;
@@ -11,11 +40,37 @@
     height: 600px;
 }
 
+.main_text .name {
+    text-transform: uppercase;
+    color: #5c5c5c;
+}
+
+.main_text .text_header {
+    max-width: 550px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 70px;
+    color: #0F141E;
+}
+
+.main_text .text_desc {
+    margin-top: 10px;
+    max-width: 550px;
+    line-height: 23px;
+    color: #5c5c5c;
+}
+
+.apresentation {
+    display: none;
+}
+
 .apresentation h1 {
     margin-top: 20px;
     font-size: 60px;
-    font-family: 'Anton', 'Helvetica', 'Arial', sans-serif;
-    text-shadow: -2px 1px 3px #5c5c5c;
+    font-family: 'Anton', Helvetica, Arial, sans-serif;
+    /* text-shadow: -2px 1px 3px #5c5c5c; */
 }
 
 .profile_pic {
@@ -32,9 +87,8 @@
 }
 
 .title {
-    font-size: 35px;
-    font-family: 'Anton', 'Helvetica', 'Arial', sans-serif;
-    text-shadow: -2px 1px 3px #5c5c5c;
+    font-size: 25px;
+    font-family: 'Anton', Helvetica, Arial, sans-serif;
 }
 
 @media (max-width: 768px){
@@ -48,6 +102,19 @@
         justify-content: center;
     }
 
+    .navbar-brand {
+        font-size: 40px;
+        padding-left: 0;
+    }
+
+    .main_text {
+        display: none;
+    }
+
+    .apresentation {
+        display: block;
+    }
+
     .apresentation h1 {
         font-size: 45px;
     }
@@ -57,7 +124,6 @@
     }
 
     .title {
-        font-size: 25px;
-        text-shadow: none;
+        font-size: 15px;
     }
 }
