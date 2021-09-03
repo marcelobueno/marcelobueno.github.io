@@ -303,4 +303,8 @@ footer {
     .title {
         font-size: 15px;
     }
+
+    .footer_content {
+        flex-direction: column;
+    }
 }
