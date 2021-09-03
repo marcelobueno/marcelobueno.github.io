@@ -2,6 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
+.bg-dark {
+    background-color: #0F141E !important;
+}
+
+.bg-gray {
+    background-color: #474a50 !important;
+}
+
+.bg-light-gray {
+    background-color: #ced3de !important;
+}
+
+.bg-light-green {
+    background-color: #4addb8 !important;
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 body {
     height: auto;
     background-color: #fff;
@@ -12,7 +33,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #cfcfcf;
+    background-color: #444444;
     border-radius: 1px;
 }
 
@@ -34,6 +55,9 @@ header nav {
     background-image: url('../images/bg-top.png');
     background-repeat: no-repeat;
     background-size: cover;
+    animation-name: fade-in;
+    animation-duration: 2s;
+    animation-timing-function: linear;
 }
 
 .banner_headline .container {
@@ -42,6 +66,8 @@ header nav {
 
 .main_text .name {
     text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 5px;
     color: #5c5c5c;
 }
 
@@ -49,8 +75,9 @@ header nav {
     max-width: 550px;
     margin-top: 10px;
     text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
     font-size: 60px;
-    font-weight: bold;
+    letter-spacing: 7px;
     line-height: 70px;
     color: #0F141E;
 }
@@ -58,8 +85,21 @@ header nav {
 .main_text .text_desc {
     margin-top: 10px;
     max-width: 550px;
-    line-height: 23px;
+    font-size: 23px;
+    line-height: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
     color: #5c5c5c;
+}
+
+.main_text .links {
+    margin-top: 20px;
+}
+
+.main_text .links a {
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: #0F141E;
 }
 
 .apresentation {
@@ -87,8 +127,145 @@ header nav {
 }
 
 .title {
-    font-size: 25px;
-    font-family: 'Anton', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 5px;
+    color: #5c5c5c;
+    margin-top: 30px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin-top: 30px;
+    height: 650px;
+    width: 500px;
+    background-image: url('../images/teste.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+section .about {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.about_desc {
+    margin-top: 10px;
+    font-size: 23px;
+    line-height: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #5c5c5c;
+}
+
+.subtitle {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 12px;
+    color: #1b1b1b;
+}
+
+.time {
+    min-height: 100px;
+    height: auto;
+}
+
+.time_line {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 6px;
+    width: 100%;
+    border-radius: 6px;
+    background-color: #0F141E;
+    display: flex;
+    justify-content: space-between;
+}
+
+.time_key {
+    height: 10px;
+    width: 5px;
+    background-color: #5c5c5c;
+}
+
+.contact_title {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 5px;
+    color: #5c5c5c;
+    margin-top: 30px;
+}
+
+.contact_phrase {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    letter-spacing: 7px;
+    line-height: 70px;
+    color: #0F141E;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+.contact_icons {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_icon a {
+    text-decoration: none;
+    color: #0F141E;
+}
+
+.contact_text {
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 200px;
+    min-height: 200px;
+}
+
+.footer_content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_title {
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #0F141E;
+}
+
+.footer_item {
+    min-height: 200px;
+    height: auto;
+}
+
+.title_subline {
+    height: 4px;
+    width: 50px;
+    background-color: #0F141E;
+}
+
+.footer_text a {
+    text-decoration: none;
+    color: #5c5c5c;
 }
 
 @media (max-width: 768px){
