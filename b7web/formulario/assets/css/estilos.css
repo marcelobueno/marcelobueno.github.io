@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e7e7e7;
+}
+
+#sign_up {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../images/wave.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 990px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social_login {
+    display: flex;
+    flex-direction: column;
+}
+
+.social_button {
+    width: 350px;
+    height: 30px;
+    border-radius: 25px;
+    padding: 7px;
+    box-shadow: 1px 1px 3px #bdbdbd;
+    margin-top: 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.bi {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.face {
+    background-color: #1877F2;
+    color: #fff;
+}
+
+.google {
+    background-color: #fff;
+    color: #0f0e0e;
+}
+
+.apple {
+    background-color: #544e4e;
+    color: #fff;
+}
+
+.form_row {
+    margin-top: 20px;
+    display: flex;
+}
+
+label {
+    color: #4b4b4b;
+    font-size: 15px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+input {
+    display: flex;
+    width: 350px;
+    height: 30px;
+    border-radius: 7.5px;
+    border: 1px solid #d6d6d6;
+    padding: 7px;
+    box-shadow: 1px 1px 3px #bdbdbd;
+}
+
+.btn_sub {
+    width: 200px;
+    height: 40px;
+    padding: 7px;
+    border-radius: 8px;
+    border: 0;
+    color: #fff;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    background-color: #0099ff;
+    box-shadow: 1px 1px 3px #bdbdbd;
+}
+
+.container .copy {
+    margin-top: 80px;
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+    color: #fff;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.copy a {
+    color: #fff;
+    font-family: 'Urbanist', sans-serif;
+}
+
+@media (max-width: 910px) {
+    #sign_up {
+        height: auto;
+        width: auto;
+        background-image: none;
+    }
+
+    .container {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social_button {
+        width: 300px;
+    } 
+
+    input {
+        width: 300px;
+    }
+
+    .container .copy {
+        color: #1f1e1e;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .copy a {
+        color: #1f1e1e;
+    }
+}
