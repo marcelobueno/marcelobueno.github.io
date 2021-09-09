@@ -40,10 +40,10 @@ setInterval(function(){changeBanner()}, 20000);
 
 window.onload = function() {
     document.querySelector('.menu_icon').addEventListener('click', function(){
-        if (document.querySelector(".menu_mobile").style.display == "none"){
-            document.querySelector(".menu_mobile").style.display = "block";
-        } else {
+        if (document.querySelector(".menu_mobile").style.display == "flex"){
             document.querySelector(".menu_mobile").style.display = "none";
+        } else {
+            document.querySelector(".menu_mobile").style.display = "flex";
         }
     });
 }

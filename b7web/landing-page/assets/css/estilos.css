@@ -376,7 +376,6 @@ address {
     height: 240px;
     width: 100%;
     background-color: #f3f3f3;
-    display: flex;
 }
 
 .menu_mobile ul {
