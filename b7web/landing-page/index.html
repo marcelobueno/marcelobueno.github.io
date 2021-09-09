@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Dammac | CRM</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <img src="assets/images/logo dammac.png" alt="Logo da Dammac Soluções em Tecnologia LTDA.">
+                </div>
+                <div class="menu_icon">
+                    <i class="bi bi-list"></i>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Informações</a></li>
+                        <li><a href="#">Preços</a></li>
+                        <li><a class="btn btn_caption" href="#">Teste Grátis</a></li>
+                    </ul>
+                </div>  
+            </div>
+        </nav>
+        <div class="menu_mobile">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Informações</a></li>
+                <li><a href="#">Preços</a></li>
+                <li><a class="btn btn_caption" href="#">Teste Grátis</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="banner" class="banner2">
+        <div class="carousel">
+            <div class="previous">
+                <a role="button" onclick="changeBanner()">
+                    <i class="bi bi-chevron-left"></i>
+                </a>
+            </div>
+            <div class="banner_content">
+                <div id="banner_title1" class="title">Relacionamento com o cliente</div>
+                <div id="banner_desc1" class="desc">Centralizado em um único lugar</div>
+                <div id="banner_title2" class="title flex_end">Atendimento multi-plataforma</div>
+                <div id="banner_desc2" class="desc flex_end">E-mail, chat e whatsapp <br> na mesma plataforma.</div>
+            </div>
+            <div class="next">
+                <a role="button" onclick="changeBanner()">
+                    <i class="bi bi-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="informations">
+        <div class="container">
+            <div class="info_title">
+                Tenha praticidade com a solução de CRM da Dammac.
+            </div>
+            <div class="info_items">
+                <div class="info_item">
+                    <div class="info_icon">
+                        <i class="bi bi-calendar2-check"></i>
+                    </div>
+                    <div class="info_desc">
+                        Facilidade na administração
+                    </div>
+                </div>
+                <div class="info_item">
+                    <div class="info_icon">
+                        <i class="bi bi-hdd-rack"></i>
+                    </div>
+                    <div class="info_desc">
+                        Banco de dados dos clientes
+                    </div>
+                </div>
+                <div class="info_item">
+                    <div class="info_icon">
+                        <i class="bi bi-envelope"></i>
+                    </div>
+                    <div class="info_desc">
+                        Abertura de tickets por e-mail
+                    </div>
+                </div>
+                <div class="info_item">
+                    <div class="info_icon">
+                        <i class="bi bi-display"></i>
+                    </div>
+                    <div class="info_desc">
+                        Abertura de tickets pela plataforma
+                    </div>
+                </div>
+                <div class="info_item">
+                    <div class="info_icon">
+                        <i class="bi bi-whatsapp"></i>
+                    </div>
+                    <div class="info_desc">
+                        Integração para atendimento via WhatsApp
+                    </div>
+                </div>
+                <div class="info_item">
+                    <div class="info_icon">
+                        <i class="bi bi-graph-up"></i>
+                    </div>
+                    <div class="info_desc">
+                        Emissão de relatórios da equipe
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="prices">
+        <div class="container">
+            <div class="info_title">
+                Planos e preços.
+            </div>
+            <div class="plans">
+                <div class="plan">
+                    <div class="plan_title">
+                        Free Trial
+                    </div>
+                    <div class="plan_desc">
+                        <ul>
+                            <li>1 Agente</li>
+                            <li>50 tickets por mês</li>
+                            <li>100 chats por mês</li>
+                        </ul>
+                    </div>
+                    <div class="plan_price">
+                        Grátis
+                    </div>
+                    <div class="plan_signup">
+                        <a href="#" class="btn_caption">Selecionar</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="plan_title">
+                        Business Starter
+                    </div>
+                    <div class="plan_desc">
+                        <ul>
+                            <li>5 Agentes</li>
+                            <li>5000 tickets por mês</li>
+                            <li>10000 chats por mês</li>
+                            <li>Suporte especializado</li>
+                        </ul>
+                    </div>
+                    <div class="plan_price">
+                        R$149,90 / mês
+                    </div>
+                    <div class="plan_signup">
+                        <a href="#" class="btn_caption">Selecionar</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="plan_title">
+                        Business Pro
+                    </div>
+                    <div class="plan_desc">
+                        <ul>
+                            <li>15 Agentes</li>
+                            <li>Tickets ilimitados</li>
+                            <li>Chats ilimitados</li>
+                            <li>Suporte especializado</li>
+                            <li>Consultoria premium</li>
+                        </ul>
+                    </div>
+                    <div class="plan_price">
+                        R$249,90 / mês
+                    </div>
+                    <div class="plan_signup">
+                        <a href="#" class="btn_caption">Selecionar</a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_item collumn">
+            <img src="assets/images/logo dammac.png" class="footer_logo" alt="">
+            <p class="mt_3 text_white font_noto">
+                A Dammac se dedica a trazer para seus clientes o melhor em tecnologia.
+                Nosso time de especialistas está pronto para atendê-lo.
+            </p>
+        </div>
+        <div class="footer_item">
+            <h1>Navegação</h1>
+            <ul class="mt_3">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Informações</a></li>
+                <li><a href="#">Preços</a></li>
+            </ul>
+        </div>
+        <div class="footer_item">
+            <h1>Redes Sociais</h1>
+            <ul class="mt_3">
+                <li><a href="#"><i class="bi bi-facebook"></i> Facebook</a></li>
+                <li><a href="#"><i class="bi bi-instagram"></i> Instagram</a></li>
+                <li><a href="#"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+            </ul>
+        </div>
+        <div class="footer_item">
+            <h1>Contato</h1>
+            <address>
+                <ul class="mt_3">
+                    <li><a href="#"><i class="bi bi-envelope"></i> contato@dammac.com.br</a></li>
+                    <li><a href="#"><i class="bi bi-whatsapp"></i> +55 11 9 8080-8080</a></li>
+                    <li><a href="#"><i class="bi bi-geo-alt"></i> Rua Exemplo 52, Bairro Exemplo, Mauá-SP</a></li>
+                </ul>
+            </address>
+        </div>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
