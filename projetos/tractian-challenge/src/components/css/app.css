@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+:root {
+    --bg-dark-blue: #1E3A8A;
+    --bg-light-blue: #235FE0;
+    --bg-white: #F4F4F5;
+    --bg-btn-green: #22C55E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: var(--bg-white) !important;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--bg-dark-blue);
+    border-radius: 2px;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.font_urbanist {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.font_roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font_noto {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+}
+
+.font_noto_title {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+}
+
+.bg_green {
+    background-color: var(--bg-btn-green) !important;
+}
+
+.text_green {
+    color: var(--bg-btn-green) !important;
+}
+
+#top {
+    background-image: url('../images/banner_challenge_top1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+}
+
+.main_title {
+    display: flex;
+    justify-content: center;
+    color: var(--bg-white);
+}
+
+.main_title .container {
+    flex-direction: column;
+    justify-content: center;
+    height: 450px;
+}
+
+.main_title h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header_desc {
+    margin-top: 30px;
+    max-width: 600px;
+}
+
+.header_desc p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.logo img {
+    height: 30px;
+    color: #fff;
+}
+
+.header_button {
+    margin-top: 30px;
+}
+
+.btn {
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: var(--bg-btn-green);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #37db73;
+}
+
+#action {
+    display: flex;
+    justify-content: center;
+}
+
+.action_title {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.action_title h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1d1a1a;
+}
+
+.collumn {
+    flex-direction: column;
+}
+
+.action_desc {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.action_desc h2 {
+    font-weight: normal;
+}
+
+.action_cards {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.action_card {
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+    background-image: linear-gradient(90deg, #1E3A8A, #235FE0);
+    box-shadow: 1px 3px 5px #5c5c5c;
+    padding: 10px;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+.card_desc {
+    color: #fff;
+    font-size: 20px;
+}
+
+.card_info {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+#about {
+    margin-top: 30px;
+    background-image: url('../images/banner_challenge_middle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.about_title h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about_desc {
+    margin-top: 30px;
+    max-width: 600px;
+}
+
+.about_desc p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#informations {
+    display: flex;
+    justify-content: center;
+}
+
+#informations .container {
+    display: flex;
+    justify-content: center;
+}
+
+.information_title h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.information_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.information_card {
+    margin-top: 80px;
+    height: 250px;
+    width: 300px;
+    border-radius: 8px;
+    background-image: linear-gradient(90deg, #dfdfdf, #f3f3f3);
+    box-shadow: 1px 3px 5px #5c5c5c;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+.information_card_title {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.information_card_desc {
+    font-size: 80px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
+#contact .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact_desc {
+    margin-top: 20px;
+    color: #5c5c5c;
+}
+
+.contact_card {
+    margin-top: 30px;
+    height: 400px;
+    width: 600px;
+    background-image: linear-gradient(90deg, #1E3A8A, #235FE0);
+    border-radius: 16px;
+    box-shadow: 1px 3px 5px #5c5c5c;
+    padding: 20px;
+}
+
+.form_group {
+    margin-bottom: 10px;
+}
+
+.form_group label {
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form_group input {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+    margin-top: 5px;
+}
+
+.form_group input:focus {
+    box-shadow: 0;
+    outline: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    margin-right: 20px;
+}
+
+input[type=radio] {
+    height: 15px;
+    width: 15px;
+}
+
+.radio_inp {
+    margin-top: 5px;
+    display: flex;
+}
+
+.radio_inp label {
+    margin-top: 3px;
+    margin-left: 4px;
+}
+
+.btn_block {
+    display: block;
+    text-align: center;
+}
+
+section #footer {
+    background-image: linear-gradient(90deg, #1E3A8A, #235FE0);
+    min-height: 220px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#footer .container .logo {
+    display: flex;
+    align-items: center;
+}
+
+#footer .container .logo img {
+    height: auto;
+    width: 320px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.socials_title {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.social_icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social_icon a {
+    margin: 30px;
+    font-size: 40px;
+    color: #fff;
+}
+
+@media (max-width: 910px) {
+    * {
+        box-sizing: unset;
+    }
+
+    .container {
+        padding-left: 20px;
+    }
+
+    nav .container {
+        padding: 0;
+    }
+
+    #action {
+        margin-top: 0;
+    }
+
+    #about {
+        padding: 20px;
+    }
+
+    #informations {
+        margin-top: 40px;
+    }
+
+    #contact {
+        margin-top: 60px;
+    }
+
+    #contact .container {
+        padding-left: 0;
+    }
+
+    .contact_title {
+        margin-left: 20px;
+    }
+
+    .contact_card {
+        max-width: 300px;
+        width: auto;
+        height: auto;
+    }
+
+    .form_group input {
+        padding-left: 0;
+        padding-right: 0;
+        display: unset;
+    }
+
+    .col {
+        margin-right: 0;
+    }
+
+    .col_4 {
+        width: 100%;
+    }
+
+    #footer {
+        margin-top: 40px;
+    }
+
+    #footer .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+}
