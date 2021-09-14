@@ -368,4 +368,17 @@ footer {
     .contact_icons {
         margin-top: 20px;
     }
+
+    .project_title {
+        font-size: 22px;
+    }
+
+    .project_desc {
+        font-size: 14px;
+    }
+
+    .project_desc ul {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 }
