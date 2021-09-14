@@ -149,6 +149,50 @@ header nav {
     background-repeat: no-repeat;
 }
 
+.project img {
+    box-shadow: 1px 1px 5px #5c5c5c;
+}
+
+.project_image {
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgba(19, 19, 19, 0.822);
+    padding: 20px;
+}
+
+.project_image .overlay:hover {
+    opacity: 1;
+}
+
+.project_title {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+
+.project_desc {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.project_desc ul {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 section .about {
     margin-top: 30px;
     margin-bottom: 60px;
@@ -233,8 +277,10 @@ section .about {
 }
 
 footer {
-    margin-top: 200px;
+    margin-top: 100px;
     min-height: 200px;
+    border-top: 1px solid #a1a1a1;
+    padding-top: 20px;
 }
 
 .footer_content {
@@ -304,7 +350,22 @@ footer {
         font-size: 15px;
     }
 
+    .project {
+        max-width: 320px;
+        max-height: 410px;
+        margin-left: 10px;
+    }
+
+    .project img {
+        max-width: 320px;
+        max-height: 410px;
+    }
+
     .footer_content {
         flex-direction: column;
+    }
+
+    .contact_icons {
+        margin-top: 20px;
     }
 }
