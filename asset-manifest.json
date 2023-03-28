@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.24edef20.css",
+    "main.js": "/static/js/main.faf749b9.js",
+    "static/media/avatar.png": "/static/media/avatar.8a045088ecff0226dcbd.png",
+    "static/media/institucionals.png": "/static/media/institucionals.d3a91ea3004ea2bf719a.png",
+    "static/media/ondemand.png": "/static/media/ondemand.2ab90386758adf04c74b.png",
+    "static/media/frontend.png": "/static/media/frontend.ac2a4225d660efc72218.png",
+    "static/media/backend.png": "/static/media/backend.840b33cd10481b45c428.png",
+    "static/media/logo_portfolio.png": "/static/media/logo_portfolio.2fc0a92105ee9fa3c02d.png",
+    "static/media/react.svg": "/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/laravel.svg": "/static/media/laravel.ba995bd47e3a7cc141cc1c9aaa1ac583.svg",
+    "static/media/php.svg": "/static/media/php.d5fbdeb7774d856a8ca48c9d092f01e6.svg",
+    "static/media/javascript.svg": "/static/media/javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "index.html": "/index.html",
+    "static/media/vue.svg": "/static/media/vue.4921ee763e7954a01fa7d9bc10d1ab93.svg",
+    "main.24edef20.css.map": "/static/css/main.24edef20.css.map",
+    "main.faf749b9.js.map": "/static/js/main.faf749b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24edef20.css",
+    "static/js/main.faf749b9.js"
+  ]
+}
