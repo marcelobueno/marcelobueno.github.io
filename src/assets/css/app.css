@@ -1,0 +1,152 @@
+:root {
+    --theme-dark-blue: #0070B6;
+    --theme-light-blue: #00BBDD;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0C335E !important;
+}
+
+.bg-theme {
+    background-color: var(--theme-dark-blue) !important;
+}
+
+.text-dark-blue {
+    color: var(--theme-dark-blue) !important;
+}
+
+.subscribe-field {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 2px;
+}
+
+.subscribe-field input {
+    display: flex;
+    width: 100%;
+    height: 46px;
+    border-radius: 23px;
+    border: 0;
+    outline: 0;
+}
+
+.subscribe-field i {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.feature-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 200px;
+    padding: 20px;
+    border: 0;
+}
+
+.feature-card img {
+    height: 50px;
+    width: auto;
+}
+
+.spacer {
+    display: flex;
+    height: 80px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00BBDD;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00BBDD;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 250px;
+    height: auto;
+    border: 1px solid #cccccc94;
+}
+
+.info-card img {
+    max-width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    transition: all ease-in-out .3s;
+}
+
+.info-card img:hover {
+    filter: saturate(200%);
+}
+
+.info-card h6 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.info-card span {
+    color: #979696;
+}
+
+.form_contact_area {
+    max-width: 800px;
+    width: 100%;
+}
+
+.text-align-start {
+    text-align: start;
+}
+
+.up-shadow {
+    box-shadow: 0 -8px 8px #ccc;
+}
+
+@media (max-width: 420px) {
+
+    .mobile_responsiviness_reverse {
+        flex-direction: column-reverse;
+    }
+
+    .mobile_responsiviness {
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .feature-card {
+        width: unset;
+        height: unset;
+        padding: unset;
+    }
+
+    #avatar_area {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #avatar_area img {
+        width: 250px;
+    }
+}
