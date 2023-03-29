@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Container } from 'reactstrap'
-import logo from '../../assets/img/logo_portfolio.png'
+import logo from '../../assets/img/logo_portfolio.webp'
 
 export const Footer = () => {
     return (

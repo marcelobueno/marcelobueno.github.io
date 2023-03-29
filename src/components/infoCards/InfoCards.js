@@ -1,9 +1,9 @@
 import React from 'react'
 import { Container } from 'reactstrap'
-import frontend from '../../assets/img/services/frontend.png'
-import backend from '../../assets/img/services/backend.png'
-import institucionals from '../../assets/img/services/institucionals.png'
-import ondemand from '../../assets/img/services/ondemand.png'
+import frontend from '../../assets/img/services/frontend.webp'
+import backend from '../../assets/img/services/backend.webp'
+import institucionals from '../../assets/img/services/institucionals.webp'
+import ondemand from '../../assets/img/services/ondemand.webp'
 
 export const InfoCards = () => {
     return (

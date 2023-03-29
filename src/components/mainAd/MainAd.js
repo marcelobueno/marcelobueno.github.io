@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import avatar from '../../assets/img/avatar.png'
+import avatar from '../../assets/img/avatar.webp'
 import logo from '../../assets/img/logo_portfolio.png'
 import { ButtonFill } from '../../components/buttons/ButtonFill'
 import { Container } from 'reactstrap'

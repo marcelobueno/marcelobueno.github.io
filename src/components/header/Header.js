@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import { Collapse, DropdownItem, DropdownMenu, DropdownToggle, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, UncontrolledDropdown } from 'reactstrap'
-import logo from '../../assets/img/logo_portfolio.png'
+import logo from '../../assets/img/logo_portfolio.webp'
 import { ButtonOulined } from '../buttons/ButtonOulined';
 
 export const Header = (args) => {
