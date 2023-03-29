@@ -1,59 +1,106 @@
 import React, { useState } from 'react'
-import { Container, Tooltip } from 'reactstrap'
+import { Container, Progress, Tooltip } from 'reactstrap'
 import php from '../../assets/img/icons/php.svg'
 import laravel from '../../assets/img/icons/laravel.svg'
 import javascript from '../../assets/img/icons/javascript.svg'
+import nodejs from '../../assets/img/icons/nodejs.svg'
 import iconreact from '../../assets/img/icons/react.svg'
 import vue from '../../assets/img/icons/vue.svg'
+import jquery from '../../assets/img/icons/jquery.svg'
+import mysql from '../../assets/img/icons/mysql.svg'
+import postgresql from '../../assets/img/icons/postgresql.svg'
+import csharp from '../../assets/img/icons/csharp.svg'
+import python from '../../assets/img/icons/python.svg'
+import bootstrap from '../../assets/img/icons/bootstrap.svg'
+
 
 export const FeatureBar = () => {
 
-    const [emailTooltipOpen, setEmailTooltipOpen] = useState(false);
-    const [chatTooltipOpen, setChatTooltipOpen] = useState(false);
-    const [telTooltipOpen, setTelTooltipOpen] = useState(false);
-    const [whatsTooltipOpen, setWhatsTooltipOpen] = useState(false);
-    const [mesTooltipOpen, setMesTooltipOpen] = useState(false);
-
-    const toggleEmail = () => setEmailTooltipOpen(!emailTooltipOpen);
-    const toggleChat = () => setChatTooltipOpen(!chatTooltipOpen);
-    const toggleTel = () => setTelTooltipOpen(!telTooltipOpen);
-    const toggleWhats = () => setWhatsTooltipOpen(!whatsTooltipOpen);
-    const toggleMes = () => setMesTooltipOpen(!mesTooltipOpen);
-
     return (
         <>
-            <Container className='d-flex gap-5 align-items-center justify-content-between mb-5'>
-                <div className="card feature-card">
-                    <img id='emailIcon' src={php} alt="" />
+            <Container>
+                <div className="text-center">
+                    <h2 className='mt-3 mb-4'>Habilidades</h2>
                 </div>
-                <div className="card feature-card">
-                    <img id='chatIcon' src={laravel} alt="" />
-                </div>
-                <div className="card feature-card">
-                    <img id='telIcon' src={javascript} alt="" />
-                </div>
-                <div className="card feature-card">
-                    <img id='whatsIcon' src={iconreact} alt="" />
-                </div>
-                <div className="card feature-card">
-                    <img id='mesIcon' src={vue} alt="" />
+                <div className="d-flex mobile_responsiviness">
+                    <div className="d-flex flex-column w-100 gap-3">
+                        <div className="ability">
+                            <img src={php} width={40} alt="" />
+                            <div className='w-100'>
+                                <Progress animated value={90} style={{height: '10px'}} color={'info'} />
+                            </div>
+                        </div>
+                        <div className="ability">
+                            <img src={laravel} width={40} alt="" />
+                            <div className='w-100'>
+                                <Progress animated value={90} style={{height: '10px'}} color={'info'} />
+                            </div>
+                        </div>
+                        <div className="ability">
+                            <img src={jquery} width={40} alt="" />
+                            <div className='w-100'>
+                                <Progress animated value={100} style={{height: '10px'}} color={'info'} />
+                            </div>
+                        </div>
+                        <div className="ability">
+                            <img src={javascript} width={40} alt="" />
+                            <div className='w-100'>
+                                <Progress animated value={100} style={{height: '10px'}} color={'info'} />
+                            </div>
+                        </div>
+                        <div className="ability">
+                            <img src={nodejs} width={40} alt="" />
+                            <div className='w-100'>
+                                <Progress animated value={80} style={{height: '10px'}} color={'info'} />
+                            </div>
+                        </div>
+                        <div className="ability">
+                            <img src={iconreact} width={40} alt="" />
+                            <div className='w-100'>
+                                <Progress animated value={90} style={{height: '10px'}} color={'info'} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="d-flex flex-column w-100 gap-3">
+                        <div className="ability">
+                            <img src={vue} width={40} alt="" />
+                            <div className='w-100'>
+                                <Progress animated value={70} style={{height: '10px'}} color={'info'} />
+                            </div>
+                        </div>
+                        <div className="ability">
+                            <img src={csharp} width={40} alt="" />
+                            <div className='w-100'>
+                                <Progress animated value={60} style={{height: '10px'}} color={'info'} />
+                            </div>
+                        </div>
+                        <div className="ability">
+                            <img src={python} width={40} alt="" />
+                            <div className='w-100'>
+                                <Progress animated value={70} style={{height: '10px'}} color={'info'} />
+                            </div>
+                        </div>
+                        <div className="ability">
+                            <img src={bootstrap} width={40} alt="" />
+                            <div className='w-100'>
+                                <Progress animated value={100} style={{height: '10px'}} color={'info'} />
+                            </div>
+                        </div>
+                        <div className="ability">
+                            <img src={mysql} height={47} alt="" />
+                            <div className='w-100'>
+                                <Progress animated value={90} style={{height: '10px'}} color={'info'} />
+                            </div>
+                        </div>
+                        <div className="ability">
+                            <img src={postgresql} width={40} alt="" />
+                            <div className='w-100'>
+                                <Progress animated value={90} style={{height: '10px'}} color={'info'} />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </Container>
-            <Tooltip isOpen={emailTooltipOpen} target="emailIcon" toggle={toggleEmail}>
-                PHP
-            </Tooltip>
-            <Tooltip isOpen={chatTooltipOpen} target="chatIcon" toggle={toggleChat}>
-                Laravel
-            </Tooltip>
-            <Tooltip isOpen={telTooltipOpen} target="telIcon" toggle={toggleTel}>
-                JavaScript
-            </Tooltip>
-            <Tooltip isOpen={whatsTooltipOpen} target="whatsIcon" toggle={toggleWhats}>
-                ReactJS
-            </Tooltip>
-            <Tooltip isOpen={mesTooltipOpen} target="mesIcon" toggle={toggleMes}>
-                VueJS
-            </Tooltip>
         </>
     )
 }

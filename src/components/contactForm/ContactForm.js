@@ -14,7 +14,7 @@ export const ContactForm = () => {
                                 <span>Nome</span>
                                 <input 
                                     type="text" 
-                                    className='form-control border-primary shadow' 
+                                    className='form-control border-primary shadow-sm' 
                                     placeholder='Digite seu nome' />
                             </label>
                         </div>
@@ -23,7 +23,7 @@ export const ContactForm = () => {
                                 <span>E-mail</span>
                                 <input 
                                     type="email" 
-                                    className='form-control border-primary shadow' 
+                                    className='form-control border-primary shadow-sm' 
                                     placeholder='Digite seu e-mail' />
                             </label>
                         </div>
@@ -34,7 +34,7 @@ export const ContactForm = () => {
                                 <span>Telefone</span>
                                 <input 
                                     type="tel" 
-                                    className='form-control border-primary shadow' 
+                                    className='form-control border-primary shadow-sm' 
                                     placeholder='(XX) XXXX-XXXX' />
                             </label>
                         </div>
@@ -43,7 +43,7 @@ export const ContactForm = () => {
                                 <span>Celular</span>
                                 <input 
                                     type="tel" 
-                                    className='form-control border-primary shadow' 
+                                    className='form-control border-primary shadow-sm' 
                                     placeholder='(XX) XXXXX-XXXX' />
                             </label>
                         </div>
@@ -52,7 +52,7 @@ export const ContactForm = () => {
                         <span>Mensagem</span>
                         <textarea 
                             maxLength={1000} 
-                            className='form-control border-primary shadow' 
+                            className='form-control border-primary shadow-sm' 
                             rows={6}
                             placeholder='Digite sua mensagem' ></textarea>
                     </label>
