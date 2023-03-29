@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.f394ee19.css",
-    "main.js": "/static/js/main.bd03480a.js",
-    "static/media/avatar.png": "/static/media/avatar.8a045088ecff0226dcbd.png",
-    "static/media/institucionals.png": "/static/media/institucionals.d3a91ea3004ea2bf719a.png",
-    "static/media/ondemand.png": "/static/media/ondemand.2ab90386758adf04c74b.png",
-    "static/media/frontend.png": "/static/media/frontend.ac2a4225d660efc72218.png",
-    "static/media/backend.png": "/static/media/backend.840b33cd10481b45c428.png",
+    "main.js": "/static/js/main.cdf1839c.js",
+    "static/media/institucionals.webp": "/static/media/institucionals.dcc96f3f2d12dd07e470.webp",
+    "static/media/ondemand.webp": "/static/media/ondemand.4faf2031478291ec7828.webp",
+    "static/media/frontend.webp": "/static/media/frontend.35927de223b52d38f80b.webp",
+    "static/media/avatar.webp": "/static/media/avatar.1957bdd1538b41d29ce3.webp",
     "static/media/logo_portfolio.png": "/static/media/logo_portfolio.2fc0a92105ee9fa3c02d.png",
+    "static/media/logo_portfolio.webp": "/static/media/logo_portfolio.5008a8fa47c366dc10c1.webp",
+    "static/media/backend.webp": "/static/media/backend.7890b15bf68e8bba70a1.webp",
     "static/media/postgresql.svg": "/static/media/postgresql.ae92b576b8ea41666538c0756df27969.svg",
     "static/media/jquery.svg": "/static/media/jquery.fcc480227fd31fecc887db807010bf1d.svg",
     "static/media/mysql.svg": "/static/media/mysql.0697e026464104aea8919845703174b9.svg",
@@ -22,10 +23,10 @@
     "static/media/php.svg": "/static/media/php.c22bc8983a322ad6551b64604137b960.svg",
     "static/media/vue.svg": "/static/media/vue.4921ee763e7954a01fa7d9bc10d1ab93.svg",
     "main.f394ee19.css.map": "/static/css/main.f394ee19.css.map",
-    "main.bd03480a.js.map": "/static/js/main.bd03480a.js.map"
+    "main.cdf1839c.js.map": "/static/js/main.cdf1839c.js.map"
   },
   "entrypoints": [
     "static/css/main.f394ee19.css",
-    "static/js/main.bd03480a.js"
+    "static/js/main.cdf1839c.js"
   ]
 }
