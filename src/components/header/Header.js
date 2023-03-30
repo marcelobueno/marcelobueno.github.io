@@ -31,9 +31,17 @@ export const Header = (args) => {
                                 Projetos para teste
                             </DropdownToggle>
                             <DropdownMenu end>
-                                <DropdownItem>Agenda</DropdownItem>
+                                <DropdownItem>
+                                    <a className='text-decoration-none text-dark'
+                                        target={'_blank'}
+                                        rel='noopener norefer'
+                                        href="https://marcelobueno.github.io/calculadora_imc_react_ts/">
+                                        Calculadora IMC
+                                    </a>
+                                </DropdownItem>
+                                {/* <DropdownItem>Agenda</DropdownItem>
                                 <DropdownItem>Lista de compras</DropdownItem>
-                                <DropdownItem>E-commerce</DropdownItem>
+                                <DropdownItem>E-commerce</DropdownItem> */}
                             </DropdownMenu>
                         </UncontrolledDropdown>
                         <NavItem>

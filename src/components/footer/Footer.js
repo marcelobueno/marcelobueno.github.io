@@ -13,7 +13,11 @@ export const Footer = () => {
                         <div>
                             <h4>Projetos</h4>
                             <div className="d-flex flex-column">
-                                <Link to={''} className='text-decoration-none text-dark'>
+                                <a href='https://marcelobueno.github.io/calculadora_imc_react_ts/' className='text-decoration-none text-dark'>
+                                    <i className="bi bi-code-slash me-2"></i>
+                                    Calculadora IMC
+                                </a>
+                                {/* <Link to={''} className='text-decoration-none text-dark'>
                                     <i className="bi bi-code-slash me-2"></i>
                                     Agenda
                                 </Link>
@@ -24,7 +28,7 @@ export const Footer = () => {
                                 <Link to={''} className='text-decoration-none text-dark mt-2'>
                                     <i className="bi bi-code-slash me-2"></i>
                                     E-commerce
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                         <div>

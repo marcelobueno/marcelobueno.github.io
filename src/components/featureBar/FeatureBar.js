@@ -22,7 +22,7 @@ export const FeatureBar = () => {
                 <div className="text-center">
                     <h2 className='mt-3 mb-4'>Habilidades</h2>
                 </div>
-                <div className="d-flex mobile_responsiviness">
+                <div className="d-flex gap-2 mobile_responsiviness">
                     <div className="d-flex flex-column w-100 gap-3">
                         <div className="ability">
                             <img src={php} width={40} alt="" />
