@@ -1,15 +1,17 @@
 import React from 'react'
 import { Container } from 'reactstrap'
 import { ButtonFill } from '../buttons/ButtonFill'
+import styles from './contactForm.module.css'
+import { Footer } from '../footer/Footer'
 
 export const ContactForm = () => {
     return (
-        <Container className='my-3'>
+        <div className={`${styles.contact_area}`} id='contact_form'>
             <div className="text-center d-flex flex-column align-items-center justify-content-center">
                 <h2>Entre em contato</h2>
                 <div className="my-3 form_contact_area">
-                    <div className="row text-align-start">
-                        <div className="col col-6">
+                    <div className="row text-align-start gap-3">
+                        <div className="col-12 col-6">
                             <label htmlFor="" className='fw-bold text-dark-blue w-100'>
                                 <span>Nome</span>
                                 <input 
@@ -18,7 +20,7 @@ export const ContactForm = () => {
                                     placeholder='Digite seu nome' />
                             </label>
                         </div>
-                        <div className="col col-6">
+                        <div className="col-12 col-6">
                             <label htmlFor="" className='fw-bold text-dark-blue w-100'>
                                 <span>E-mail</span>
                                 <input 
@@ -29,22 +31,22 @@ export const ContactForm = () => {
                         </div>
                     </div>
                     <div className="row my-3 text-align-start">
-                        <div className="col col-6">
+                        <div className="col-12 col-6">
                             <label htmlFor="" className='fw-bold text-dark-blue w-100'>
                                 <span>Telefone</span>
                                 <input 
                                     type="tel" 
                                     className='form-control border-primary shadow-sm' 
-                                    placeholder='(XX) XXXX-XXXX' />
+                                    placeholder='Digite seu telefone para contato' />
                             </label>
                         </div>
-                        <div className="col col-6">
+                        <div className="col-12 col-6">
                             <label htmlFor="" className='fw-bold text-dark-blue w-100'>
                                 <span>Celular</span>
                                 <input 
                                     type="tel" 
                                     className='form-control border-primary shadow-sm' 
-                                    placeholder='(XX) XXXXX-XXXX' />
+                                    placeholder='Digite seu celular para contato' />
                             </label>
                         </div>
                     </div>
@@ -61,6 +63,7 @@ export const ContactForm = () => {
                     </div>
                 </div>
             </div>
-        </Container>
+            <Footer />
+        </div>
     )
 }

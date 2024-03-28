@@ -13,10 +13,15 @@ export const Home = () => {
         <>
             <Header />
             <MainAd />
-            <FeatureBar />
-            <InfoCards />
-            <ContactForm />
-            <Footer />
+            <section className='my-5'>
+                <FeatureBar />
+            </section>
+            <section className='my-5'>
+                <InfoCards />
+            </section>
+            <section className='mt-5'>
+                <ContactForm />
+            </section>
         </>
     )
 }

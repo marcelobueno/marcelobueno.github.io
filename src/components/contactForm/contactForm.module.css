@@ -1,0 +1,23 @@
+.contact_area {
+    background-image: url('../../assets/img/contact_section_bg.svg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.contact_area h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff !important;
+    margin-bottom: 20px;
+}
+
+.contact_area label {
+    font-size: 18px;
+    color: #fff !important;
+}
+
+.contact_area button {
+    background-color: #f5f5f5 !important;
+    color: var(--theme-dark-blue) !important;
+}

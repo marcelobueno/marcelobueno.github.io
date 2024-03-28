@@ -5,27 +5,27 @@ import logo from '../../assets/img/logo_portfolio.webp'
 
 export const Footer = () => {
     return (
-        <footer className='up-shadow py-5 mt-5'>
+        <footer className='py-5 mt-5'>
             <Container>
                 <div className="d-flex justify-content-between mobile_responsiviness">
                     <img src={logo} height={120} alt="" />
                     <div className='d-flex gap-5 mobile_responsiviness'>
                         <div>
-                            <h4>Projetos</h4>
+                            <h4>Portfólio</h4>
                             <div className="d-flex flex-column">
-                                <a href='https://marcelobueno.github.io/calculadora_imc_react_ts/' className='text-decoration-none text-dark'>
+                                <a href='https://marcelobueno.github.io/calculadora_imc_react_ts/' className='text-decoration-none '>
                                     <i className="bi bi-code-slash me-2"></i>
                                     Calculadora IMC
                                 </a>
-                                {/* <Link to={''} className='text-decoration-none text-dark'>
+                                {/* <Link to={''} className='text-decoration-none '>
                                     <i className="bi bi-code-slash me-2"></i>
                                     Agenda
                                 </Link>
-                                <Link to={''} className='text-decoration-none text-dark mt-2'>
+                                <Link to={''} className='text-decoration-none  mt-2'>
                                     <i className="bi bi-code-slash me-2"></i>
                                     Lista de compras
                                 </Link>
-                                <Link to={''} className='text-decoration-none text-dark mt-2'>
+                                <Link to={''} className='text-decoration-none  mt-2'>
                                     <i className="bi bi-code-slash me-2"></i>
                                     E-commerce
                                 </Link> */}
@@ -35,7 +35,7 @@ export const Footer = () => {
                             <h4>Contatos</h4>
                             <div className="d-flex flex-column">
                                 <a
-                                    className='text-decoration-none text-dark'
+                                    className='text-decoration-none '
                                     href="mailto:marcelo.f.bueno@hotmail.com"
                                     rel='noopener norefer'
                                     target={'_blank'}>
@@ -43,7 +43,7 @@ export const Footer = () => {
                                     marcelo.f.bueno@hotmail.com
                                 </a>
                                 <a
-                                    className='text-decoration-none text-dark mt-2'
+                                    className='text-decoration-none  mt-2'
                                     href="tel:+5511982702962"
                                     rel='noopener norefer'
                                     target={'_blank'}>
@@ -51,7 +51,7 @@ export const Footer = () => {
                                     +55 11 98270-2962
                                 </a>
                                 <a
-                                    className='text-decoration-none text-dark mt-2'
+                                    className='text-decoration-none  mt-2'
                                     href="https://wa.me/5511982702962"
                                     rel='noopener norefer'
                                     target={'_blank'}>
@@ -64,7 +64,7 @@ export const Footer = () => {
                             <h4>Minhas redes sociais</h4>
                             <div className="d-flex flex-column">
                                 <a
-                                    className='text-decoration-none text-dark'
+                                    className='text-decoration-none '
                                     href="https://www.linkedin.com/in/marcelofbueno/"
                                     rel='noopener norefer'
                                     target={'_blank'}>
@@ -72,7 +72,7 @@ export const Footer = () => {
                                     linkedin.com/in/marcelofbueno/
                                 </a>
                                 <a
-                                    className='text-decoration-none text-dark mt-2'
+                                    className='text-decoration-none  mt-2'
                                     href="https://www.instagram.com/marcelobuenodev/"
                                     rel='noopener norefer'
                                     target={'_blank'}>
@@ -80,7 +80,7 @@ export const Footer = () => {
                                     instagram.com/marcelobuenodev
                                 </a>
                                 <a
-                                    className='text-decoration-none text-dark mt-2'
+                                    className='text-decoration-none  mt-2'
                                     href="https://github.com/marcelobueno"
                                     rel='noopener norefer'
                                     target={'_blank'}>

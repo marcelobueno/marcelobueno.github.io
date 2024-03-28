@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { Collapse, DropdownItem, DropdownMenu, DropdownToggle, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, UncontrolledDropdown } from 'reactstrap'
 import logo from '../../assets/img/logo_portfolio.webp'
 import { ButtonOulined } from '../buttons/ButtonOulined';
+import cv from '../../assets/files/CV_Marcelo_Bueno.pdf';
 
 export const Header = (args) => {
 
@@ -21,14 +22,14 @@ export const Header = (args) => {
                 </NavbarToggler>
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className={`me-auto bg-white w-100 ${isOpen ? 'gap-3 mb-3' : 'align-items-center gap-5'} mt-2`} navbar>
-                        <NavItem>
-                            <NavLink to={'/teste'} className={`${isOpen ? '' : 'ms-4'} text-decoration-none text-muted`}>
+                        {/* <NavItem>
+                            <NavLink to={'#sobre_mim'} className={`${isOpen ? '' : 'ms-4'} text-decoration-none text-muted`}>
                                 Sobre mim
                             </NavLink>
-                        </NavItem>
+                        </NavItem> */}
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret className={`text-decoration-none text-muted`}>
-                                Projetos para teste
+                                Portfólio
                             </DropdownToggle>
                             <DropdownMenu end>
                                 <DropdownItem>
@@ -45,9 +46,9 @@ export const Header = (args) => {
                             </DropdownMenu>
                         </UncontrolledDropdown>
                         <NavItem>
-                            <NavLink to={'/teste'} className={`text-decoration-none text-muted`}>
+                            <a download={true} href={cv} className={`text-decoration-none text-muted`}>
                                 Currículo
-                            </NavLink>
+                            </a>
                         </NavItem>
                         <NavItem>
                             <NavLink to={'https://wa.me/5511982702962'} target={'_blank'} className={`text-decoration-none text-muted`}>
@@ -55,7 +56,11 @@ export const Header = (args) => {
                             </NavLink>
                         </NavItem>
                     </Nav>
-                    <ButtonOulined className={'bg-white w-100'} title={'Solicitar contato'} />
+                    <a href="#contact_form" style={{
+                        textDecoration: 'none'
+                    }}>
+                        <ButtonOulined className={'bg-white w-100'} title={'Solicitar contato'} />
+                    </a>
                 </Collapse>
             </Navbar>
         </>
