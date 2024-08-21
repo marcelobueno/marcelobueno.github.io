@@ -7,7 +7,7 @@ import { Footer } from '../footer/Footer'
 export const ContactForm = () => {
     return (
         <div className={`${styles.contact_area}`} id='contact_form'>
-            <div className="text-center d-flex flex-column align-items-center justify-content-center">
+            {/* <div className="text-center d-flex flex-column align-items-center justify-content-center">
                 <h2>Entre em contato</h2>
                 <div className="my-3 form_contact_area">
                     <div className="row text-align-start gap-3">
@@ -62,7 +62,7 @@ export const ContactForm = () => {
                         <ButtonFill customClass='shadow' title={'Enviar'} />
                     </div>
                 </div>
-            </div>
+            </div> */}
             <Footer />
         </div>
     )

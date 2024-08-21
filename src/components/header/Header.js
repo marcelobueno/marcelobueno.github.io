@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { Collapse, DropdownItem, DropdownMenu, DropdownToggle, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, UncontrolledDropdown } from 'reactstrap'
 import logo from '../../assets/img/logo_portfolio.webp'
 import { ButtonOulined } from '../buttons/ButtonOulined';
-import cv from '../../assets/files/CV_Marcelo_Bueno.pdf';
+import cv from '../../assets/files/CV-Marcelo Bueno-08-24.pdf';
 
 export const Header = (args) => {
 
@@ -40,6 +40,30 @@ export const Header = (args) => {
                                         Calculadora IMC
                                     </a>
                                 </DropdownItem>
+                                <DropdownItem>
+                                    <a className='text-decoration-none text-dark'
+                                        target={'_blank'}
+                                        rel='noopener norefer'
+                                        href="https://marcelobueno.github.io/medicenter">
+                                        Medicenter
+                                    </a>
+                                </DropdownItem>
+                                <DropdownItem>
+                                    <a className='text-decoration-none text-dark'
+                                        target={'_blank'}
+                                        rel='noopener norefer'
+                                        href="https://marcelobueno.github.io/starbucks">
+                                        Starbucks
+                                    </a>
+                                </DropdownItem>
+                                <DropdownItem>
+                                    <a className='text-decoration-none text-dark'
+                                        target={'_blank'}
+                                        rel='noopener norefer'
+                                        href="https://marcelobueno.github.io/awax">
+                                        Awax
+                                    </a>
+                                </DropdownItem>
                                 {/* <DropdownItem>Agenda</DropdownItem>
                                 <DropdownItem>Lista de compras</DropdownItem>
                                 <DropdownItem>E-commerce</DropdownItem> */}
@@ -56,11 +80,11 @@ export const Header = (args) => {
                             </NavLink>
                         </NavItem>
                     </Nav>
-                    <a href="#contact_form" style={{
+                    {/* <a href="https://wa.me/5511982702962?text=" style={{
                         textDecoration: 'none'
                     }}>
                         <ButtonOulined className={'bg-white w-100'} title={'Solicitar contato'} />
-                    </a>
+                    </a> */}
                 </Collapse>
             </Navbar>
         </>

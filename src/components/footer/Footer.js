@@ -13,22 +13,22 @@ export const Footer = () => {
                         <div>
                             <h4>Portfólio</h4>
                             <div className="d-flex flex-column">
-                                <a href='https://marcelobueno.github.io/calculadora_imc_react_ts/' className='text-decoration-none '>
+                                <a href='https://marcelobueno.github.io/calculadora_imc_react_ts/' target='_blank' className='text-decoration-none '>
                                     <i className="bi bi-code-slash me-2"></i>
                                     Calculadora IMC
                                 </a>
-                                {/* <Link to={''} className='text-decoration-none '>
+                                <a href='https://marcelobueno.github.io/medicenter' target='_blank' className='text-decoration-none '>
                                     <i className="bi bi-code-slash me-2"></i>
-                                    Agenda
-                                </Link>
-                                <Link to={''} className='text-decoration-none  mt-2'>
+                                    Medicenter
+                                </a>
+                                <a href='https://marcelobueno.github.io/starbucks' target='_blank' className='text-decoration-none '>
                                     <i className="bi bi-code-slash me-2"></i>
-                                    Lista de compras
-                                </Link>
-                                <Link to={''} className='text-decoration-none  mt-2'>
+                                    Starbucks
+                                </a>
+                                <a href='https://marcelobueno.github.io/awax' target='_blank' className='text-decoration-none '>
                                     <i className="bi bi-code-slash me-2"></i>
-                                    E-commerce
-                                </Link> */}
+                                    Awax
+                                </a>
                             </div>
                         </div>
                         <div>
